@@ -23,7 +23,7 @@ body {
     background-color: #121212;
     display: flex;
     border-radius: 8px;
-    padding: 16px 0 0 16px;
+    padding: 10px 0 0 8px;
 }
 
 .logo img {
@@ -33,12 +33,12 @@ body {
 
 .barralateral nav ul {
     margin-top: 20px;
-    padding: 0 20px 10px 20px;
+    padding: 0 20px 10px 10px;
 
 }
 
 .barralateral ul li {
-    padding: 10px 0;
+    padding: 8px 0;
 }
 
 .barralateral nav ul li a {
@@ -49,3 +49,145 @@ body {
     font-family: "DM Sans", sans-serif;
 
 }
+
+.barralateral ul li .fa {
+    margin-right: 5px;
+}
+
+.biblioteca{
+    background-color: #121212;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 4px 8px;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 0 16px 16px 16px;
+}
+
+.biblioteca .biblioteca_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.biblioteca .biblioteca_button{
+    display: flex;
+    margin-right: 10px;
+    color: #b3b3b3;
+    background-color: transparent;
+    border: 0;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 20px 10px;
+}
+
+.biblioteca .biblioteca_button .fa {
+    font-size: 18px;
+    font-weight: 300;
+    padding-right: 8px;
+}
+
+.biblioteca .biblioteca_content .fa-plus {
+    margin:  22px 8px; 
+}
+
+.section-playlist{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #242424;
+    color:#b3b3b3;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 8px 0;
+    padding: 16px 20px;
+}
+
+.section-playlist .section-playlist_content{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-playlist_content .text{
+    font-family: "DM Sans", sans-serif;
+    padding-bottom: 14px;
+    color:#fff;
+}
+
+.section-playlist_content .title{
+    font-weight: 700;
+}
+
+.section-playlist_content .subtitle{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.section-playlist_content .section-playlist_button{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    color: #000;
+    border: 0;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    text-decoration: none;
+    text-transform: none;
+    padding: 10px;
+    width: 113px;
+    margin-top: 12px;
+
+}
+
+.barralateral .cookies {
+    margin: 25px 16px;  
+}
+
+.barralateral .cookies a {
+    color:#b3b3b3;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.barralateral .cookies a:hover {
+    text-decoration: underline;
+}
+
+.languages .languages_button {
+    align-items: center;
+    background-color: transparent;
+
+    border: 1px solid #878787;
+    border-radius: 20px;
+
+    color: #fff;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    width: 170px;
+    margin: 8px;
+    padding: 8px;
+   
+    
+}
+
+
+
+
+
+
