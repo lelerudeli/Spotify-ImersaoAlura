@@ -16,7 +16,7 @@ body {
 .blNavigation {
     background-color: #121212;
     border-radius: 8px;
-    padding: 16px 0 0 16px;
+    padding: 16px 0 0 8px;
 
 }
 
@@ -28,13 +28,13 @@ body {
 }
 
 .logo img {
-    width: 80px;
+    width: 90px;
 
 }
 
 .barralateral nav ul {
-    margin-top: 20px;
-    padding: 0 20px 10px 10px;
+    margin-top: 18px;
+    padding: 0 20px 10px 18px;
 
 }
 
@@ -49,8 +49,12 @@ body {
     font-size: 14;
 }
 
-.barralateral ul li .fa {
+.barralateral ul li .fa-search {
     margin-right: 5px;
+}
+
+.barralateral ul li .fa-home {
+    margin-right: 3px;
 }
 
 .biblioteca{
@@ -179,6 +183,52 @@ body {
     padding: 8px;
    
     
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #005827,#0af570);
+    padding: 14px;
+    
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+
+}
+
+.footer-texts{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    color: #fff;
+    margin-left: 10px;
+}
+
+.footer-texts .text_title{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.footer-texts .text_subtitle{
+    font-size: 14px;
+}
+
+.subscribe-free{
+    background-color: #fff;
+    border: none;
+    border-radius: 50px;
+
+    padding: 18px 20px;
+    margin-right: 14px;
+
+    font-weight: 700;
+    font-size: 16px;
+
+    cursor: pointer;
 }
 
 
