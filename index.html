@@ -80,7 +80,10 @@
     </div>
 
     <main>
+
         <div class="main-container">
+
+            <!--HEADER NAVIGATION-->
             <nav class="header_navigation">
 
                 <div class="navigation">
@@ -94,7 +97,8 @@
 
                     <div class="header_search">
                         <img src="./src/assets/icons/search.png" alt="">
-                        <input id="search-input" type="text" maxlength="800" placeholder="O que você deseja ouvir?"/>
+                        <input id="search-input" type="text" maxlength="800"  autocorrect="off" autocapitalize="off" spellcheck="false" 
+                        placeholder="O que você deseja ouvir?"/>
                     </div>
 
                     <div class="header_login">
@@ -104,13 +108,18 @@
                     </div>              
             </nav>
 
-            <div class="playlist-container">
-                <div id="result-playlists">
+
+            <!-- PRESENTATION -->
+            <div class="presentation-container">
+                <div id="result-presentation">
+
+                    <!--TEXTS-->
                     <div class="texts">
                         <h1 id="greeting"> Boa Noite! </h1>
                         <h2 class="session">Navegar por todas as seções</h2>
                     </div>
 
+                    <!--CARDS-->                
                     <div class="offer__scroll-container">
                         <div class="offer__list">
                           <section class="offer__list-item">
@@ -233,12 +242,37 @@
                                 <span>Música Latina</span>
                               </div>
                             </a>
+
                           </section>
+
                         </div>                    
                     </div>
+
+                    <!--SEARCH CARDS-->
+                    <div id="result-artist" class="hidden">
+                      <div class="grid-container">
+                        <div class="artist-card" id="">
+                          <div class="card-img">
+                            <img id="artist-img" class="artist-img" />
+                            <div class="play">
+                              <span class="fa fa-solid fa-play"></span>
+                            </div>
+                          </div>
+                          <div class="card-text">
+                            <a title="Foo Fighters" class="vst" href=""></a>
+                            <span class="artist-name" id="artist-name"></span>
+                            <span class="artist-categorie"> Artista </span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
                 </div>
             </div>
+
         </div>
+
     </main>
 
     <footer>
