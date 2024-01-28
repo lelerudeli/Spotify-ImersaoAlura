@@ -126,18 +126,18 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
 
     /* HOVER */
 
-    .header_search:hover {
+.header_search:hover {
         border: 1px solid #fff;
-    }
+}
     
-    .header_login .subscribe:hover {
+.header_login .subscribe:hover {
         transform: scale(1.04);
         color: var(--text-base-light);
-    }
+}
     
-    .header_login .login:hover {
+.header_login .login:hover {
         transform: scale(1.04);
-    }
+}
     /* FIM HOVER */
 
 /*FIM HEADER*/
@@ -146,11 +146,8 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
 /*presentation*/
 
 .presentation-container{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 64vh;
-    padding: 16px;
+    padding: 16px;    
+    height: 70vh;
     margin: 10px;
     border-radius: 8px;
     background-color: #121212;
@@ -158,11 +155,11 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
 
 .presentation-container .texts{
     color: #fff;
-    margin: 28px 0px;
+    margin: 32px 16px 28px 4px;
     
     display: flex;
     flex-direction: column;
-    gap: 44px;
+    gap: 38px;
 }
 
 .presentation-container .texts h1{
@@ -293,26 +290,22 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
 
   
     /* CARD ARTISTA */
-  
-    .artist {
-        --column-count: 5;
-        --grid-gap: 24px;
-        --min-container-width: 372px;
-    }
+
+.hidden {
+      display: none;
+      
+  }
     
-    .hidden {
-        display: none;
-    }
-    
-    .grid-container {
-        grid-gap: var(--grid-gap);
+.grid-container {
         display: grid;
+        gap: var(--grid-gap);
         grid-template-columns: repeat(var(--column-count), minmax(0, 1fr));
-        min-width: var(--min-container-width);
-    }
+
+}
     
-    .artist-card {
+.artist-card {
         background: #181818;
+        border: 0.5px solid #c2c2c2;
         border-radius: 8px;
         -ms-flex: 1;
         flex: 1;
@@ -323,18 +316,18 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
         width: 100%;
     }
     
-    .artist-card:hover {
+.artist-card:hover {
         background-color: #252525;
     }
     
-    .card-img {
+.card-img {
         padding-bottom: 100%;
         position: relative;
         width: 100%;
         margin-bottom: 16px;
     }
     
-    .artist-img {
+.artist-img {
         height: 100%;
         left: 0;
         position: absolute;
@@ -343,7 +336,7 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
         border-radius: 50%;
     }
     
-    .card-text {
+.card-text {
         display: flex;
         flex-direction: column;
         color: #fff;
@@ -353,13 +346,13 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
         min-height: 62px;
     }
     
-    .card-text a {
+.card-text a {
         display: inline-block;
         max-width: 100%;
         vertical-align: middle;
     }
     
-    .artist-name {
+.artist-name {
         box-sizing: border-box;
         margin-block: 0px;
         font-size: 16px;
@@ -367,17 +360,17 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
         padding-block-end: 8px;
     }
     
-    .artist-categorie {
+.artist-categorie {
         color: #6a6a6a;
         font-weight: 400;
         font-size: 0.875rem;
     }
     
-    .play {
+.play {
         position: relative;
     }
     
-    .play .fa-play {
+.play .fa-play {
         position: absolute;
         right: 10px;
         top: 120px;
@@ -389,19 +382,16 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
         transition: all ease 0.4s;
     }
     
-    .artist-card:hover .play .fa-play {
+.artist-card:hover .play .fa-play {
         opacity: 1;
         transform: translateY(-20px);
     }
     
-    .play .fa-play:hover {
+.play .fa-play:hover {
         padding: 20px;
         cursor: pointer;
     }
     
-    #result-artist {
-        padding: 20px 40px;
-    }
 
     /*FIM CARDS ARTISTA*/
 

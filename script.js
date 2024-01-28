@@ -12,9 +12,8 @@ function requestApi(searchTerm) {
 }
 
 function displayResults(result) {
-    hidePresentation();
     
-    resultPresentation.classList.add('hidden');
+    resultPresentation.classList.add("hidden");
     const artistName = document.getElementById('artist-name');
     const artistImage = document.getElementById('artist-img');
 
@@ -24,10 +23,6 @@ function displayResults(result) {
     });
 
     resultArtist.classList.remove('hidden');
-
-    function hidePresentation(){
-        resultPresentation.classList.add('hidden');
-    }
 
 }
 
