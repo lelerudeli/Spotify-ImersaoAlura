@@ -16,10 +16,12 @@ function displayResults(result) {
     resultPresentation.classList.add("hidden");
     const artistName = document.getElementById('artist-name');
     const artistImage = document.getElementById('artist-img');
+    const artistGenre = document.getElementById('artist-genre');
 
     result.forEach(element => {
         artistName.innerText = element.name;
-        artistImage.src = element.urlImg;        
+        artistImage.src = element.urlImg; 
+        artistGenre.innerText = element.genre;       
     });
 
     resultArtist.classList.remove('hidden');
