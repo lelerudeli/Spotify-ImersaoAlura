@@ -146,7 +146,7 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
 /*presentation*/
 
 .presentation-container{
-    padding: 16px;    
+    padding: 16px; 
     height: 70vh;
     margin: 10px;
     border-radius: 8px;
@@ -162,12 +162,12 @@ none: Um elemento com display: none é completamente removido do fluxo de layout
     gap: 38px;
 }
 
-.presentation-container .texts h1{
+#greeting {
     font-weight: 700;
     font-size: 2rem;
 }
 
-.presentation-container .texts h2{
+#sugestion{
     font-weight: 600;
     font-size: 22px;
 }

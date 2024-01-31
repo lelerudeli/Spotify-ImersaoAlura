@@ -49,6 +49,12 @@ body {
     font-size: 14;
 }
 
+.barralateral nav ul li a:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+
 .barralateral ul li .fa-search {
     margin-right: 5px;
 }
@@ -83,12 +89,16 @@ body {
     color: #b3b3b3;
     background-color: transparent;
     border: 0;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
     text-align: center;
     text-decoration: none;
     text-transform: none;
     padding: 20px 10px;
+}
+
+.biblioteca .biblioteca_content:hover, .biblioteca_button:hover{
+    color:#fff
 }
 
 .biblioteca .biblioteca_button .fa {
@@ -110,7 +120,7 @@ body {
     color:#b3b3b3;
     border-radius: 8px;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 16px;
     margin: 8px 0;
     padding: 16px 20px;
 }
@@ -131,7 +141,7 @@ body {
 
 .section-playlist_content .subtitle{
     font-weight: 500;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .section-playlist_content .section-playlist_button{
@@ -141,13 +151,16 @@ body {
     color: #000;
     border: 0;
     border-radius: 20px;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 700;
     text-decoration: none;
-    text-transform: none;
     padding: 10px;
     width: 113px;
     margin-top: 12px;
+}
+
+.section-playlist_content .section-playlist_button:hover{
+    transform: scale(1.1);
 
 }
 
